@@ -1,0 +1,9 @@
+.entryForm {
+    position: absolute;
+    width: 400px;
+    background-color: #ededed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 16px;
+}

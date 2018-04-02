@@ -22,6 +22,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## About the project
+This app is used to save the server load by not sending the data on every key press rather than sending one if you pause for 5 sec and after every 20 char data will be send to server.
+1. The app should post data to API after 5 sec 
+2. It should post data to API for 20,40,60 etc char lengths when user enters the chanracter in the input box.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
